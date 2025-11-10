@@ -3,6 +3,7 @@
   "name": "SideKick Extension",
   "version": "1.0",
   "description": "SideKick pop-up with selection and draggable UI",
+
   "permissions": ["scripting", "activeTab", "storage"],
 
   "action": {
@@ -16,8 +17,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["panel.css"]
+      "js": ["content.js"]
     }
   ],
 
